@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__output">0</div>
+        <div class="calculator__keys">
+          <button class="calculator__key calculator__key--operator" onclick="add()">+</button>
+          <button class="calculator__key calculator__key--operator" onclick="add()">-</button>
+          <button class="calculator__key calculator__key--operator" onclick="add()">*</button>
+          <button class="calculator__key calculator__key--operator" onclick="add()">/</button>
+          <button class="calculator__key" onclick="add()">7</button>
+          <button class="calculator__key" onclick="add()">8</button>
+          <button class="calculator__key" onclick="add()">9</button>
+          <button class="calculator__key" onclick="add()">4</button>
+          <button class="calculator__key" onclick="add()">5</button>
+          <button class="calculator__key" onclick="add()">6</button>
+          <button class="calculator__key" onclick="add()">1</button>
+          <button class="calculator__key" onclick="add()">2</button>
+          <button class="calculator__key" onclick="add()">3</button>
+          <button class="calculator__key" onclick="add()">0</button>
+          <button class="calculator__key" onclick="add()">.</button>
+          <button class="calculator__key" onclick="reset()">AC</button>
+          <button class="calculator__key calculator__key--enter" onclick="calculate()">=</button>
+        </div>
+      </div>
+      <script src="calc.js"></script>
+</body>
+</html>
